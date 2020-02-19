@@ -1,0 +1,39 @@
+threshold: 60
+checks:
+  topics:
+    topicCorrections:
+      panos: pan-os
+      global-protect: globalprotect
+      loggingservice: logging-service
+      cdl: cortex-data-lake
+      auto-focus: autofocus
+      vmseries: vm-series
+      cloudservices: cloud-services
+    requiredTopic:
+      - autofocus
+      - cloud-services
+      - cortex
+      - cortex-data-lake
+      - cortex-xdr
+      - cortex-xdr-analytics
+      - cortex-xdr-investigation-and-response
+      - demisto
+      - directory-sync-service
+      - evident
+      - globalprotect
+      - hardware
+      - hub
+      - log-forwarding-app
+      - logging-service
+      - pan-os
+      - panorama
+      - prisma-access
+      - prisma-cloud
+      - prisma-cloud-compute-edition
+      - prisma-saas
+      - secdo
+      - security-lifecycle-review-slr
+      - traps
+      - traps-management-service
+      - vm-series
+      - wildfire
