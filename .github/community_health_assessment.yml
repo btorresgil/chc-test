@@ -2,13 +2,20 @@ threshold: 60
 checks:
   topics:
     topicCorrections:
-      panos: pan-os
-      global-protect: globalprotect
-      loggingservice: logging-service
-      cdl: cortex-data-lake
-      auto-focus: autofocus
-      vmseries: vm-series
-      cloudservices: cloud-services
+      pan-os:
+      - panos
+      globalprotect:
+      - global-protect
+      logging-service:
+      - loggingservice
+      cortex-data-lake:
+      - cdl
+      autofocus:
+      - auto-focus
+      vm-series:
+      - vmseries
+      cloud-services:
+      - cloudservices
     requiredTopic:
       - autofocus
       - cloud-services
